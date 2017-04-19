@@ -16,10 +16,19 @@ function downloadCount(period, displayMsg, callback){
 			process.exit();
 		}
 		else{
+			if(JSON.parse(body).error) {
+				console.log('Please enter a valid npm module name');
+				process.exit();
+			}
 			console.log(JSON.parse(body).downloads + displayMsg);
 			if(callback) callback();
 		}
 	});
+}
+
+if(!process.argv[2]){
+	console.log('Please specify a module name.')
+	process.exit();
 }
 
 console.log('\nModule Name :: ',moduleName);
