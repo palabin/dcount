@@ -21,6 +21,6 @@ $ dcount npm-install-all
 
 ## Screenshots
 
-**Output in the console **
+**Output in the console**
 
 ![](/screenshots/screenshot1.jpg?raw=true)
