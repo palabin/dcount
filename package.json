@@ -1,0 +1,34 @@
+{
+  "name": "dcount",
+  "version": "1.0.0",
+  "description": "This module displays the download count for the last day, last week, last month and total downloads till date, for a specific package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palabin/dcount.git"
+  },
+  "author": {
+    "name": "Abin Pal"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palabin/dcount/issues"
+  },
+  "homepage": "https://github.com/palabin/dcount#readme",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "request": "^2.81.0"
+  },
+  "bin": {
+    "dcount": "index.js"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "download",
+    "count"
+  ]
+}
